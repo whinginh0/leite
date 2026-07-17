@@ -77,7 +77,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Redirect to Complete Plan directly
     if (btnComprarCompleto) {
         btnComprarCompleto.addEventListener('click', () => {
-            redirectToCheckout('https://ggcheckout.app/checkout/v5/AyfdPHjP0tPFjTJoJA9E');
+            redirectToCheckout('https://ggcheckout.app/checkout/v5/UGJdx7Iyd0LqjogZOp5p');
         });
     }
 
@@ -90,14 +90,14 @@ document.addEventListener('DOMContentLoaded', () => {
     if (btnCloseUpsell) btnCloseUpsell.addEventListener('click', closeUpsell);
     if (btnUpsellDecline) btnUpsellDecline.addEventListener('click', () => {
         closeUpsell();
-        redirectToCheckout('https://ggcheckout.app/checkout/v5/SjmRcTJUymFjpEDyvBHO');
+        redirectToCheckout('https://ggcheckout.app/checkout/v5/GS70os0JgX8IWfeXamNB');
     });
 
     // Modal Action: Accept Upsell
     if (btnUpsellAccept) {
         btnUpsellAccept.addEventListener('click', () => {
             closeUpsell();
-            redirectToCheckout('https://ggcheckout.app/checkout/v5/PARZasW39xteFDYrd6HS');
+            redirectToCheckout('https://ggcheckout.app/checkout/v5/eL1C0EJgLTq4eOhm9RwX');
         });
     }
 
